@@ -49,6 +49,10 @@ fn main() {
                 Event::Quit{..} | Event::KeyDown{keycode: Some(Keycode::Escape), ..} => {
                     break 'gameloop;
                 },
+                Event::KeyDown{keycode: Some(Keycode::Backspace), ..} => {
+                    chip8.reset();
+                    chip8.load(&buffer);
+                }
                 Event::KeyDown{keycode: Some(key), ..} => {
                     if let Some(k) = key2btn(key) {
                         chip8.keypress(k, true);
