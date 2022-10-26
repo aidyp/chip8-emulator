@@ -1,0 +1,11 @@
+/Users/adp/projects/personal/rustchip/wasm/target/wasm32-unknown-unknown/release/deps/web_sys-31f9f17a20578679.rmeta: /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/lib.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/mod.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_Event.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_KeyboardEvent.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_UiEvent.rs
+
+/Users/adp/projects/personal/rustchip/wasm/target/wasm32-unknown-unknown/release/deps/libweb_sys-31f9f17a20578679.rlib: /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/lib.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/mod.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_Event.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_KeyboardEvent.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_UiEvent.rs
+
+/Users/adp/projects/personal/rustchip/wasm/target/wasm32-unknown-unknown/release/deps/web_sys-31f9f17a20578679.d: /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/lib.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/mod.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_Event.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_KeyboardEvent.rs /Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_UiEvent.rs
+
+/Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/lib.rs:
+/Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/mod.rs:
+/Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_Event.rs:
+/Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_KeyboardEvent.rs:
+/Users/adp/.cargo/registry/src/github.com-1ecc6299db9ec823/web-sys-0.3.60/src/features/gen_UiEvent.rs:
