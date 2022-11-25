@@ -16,6 +16,7 @@ ctx.fillRect(0, 0, WIDTH * SCALE, HEIGHT * SCALE)
 
 const game_input = document.getElementById("fileinput")
 
+
 async function run() {
     await init() 
     let chip8 = new wasm.EmuWasm()
@@ -28,11 +29,12 @@ async function run() {
         chip8.keypress(evt, false)
     })
 
-    game_input.addEventListener("click", function(evt) {
+    game_input.addEventListener("change", async function(evt) {
         // Handle file loading
         if (anim_frame != 0) {
             window.cancelAnimationFrame(anim_frame)
         }
+        
 
         let file = evt.target.files[0]
         if (!file) {
@@ -41,7 +43,7 @@ async function run() {
         }
 
         let fr = new FileReader()
-
+        
         fr.onload = function(e) {
             let buffer = fr.result 
             const rom = new Uint8Array(buffer)
@@ -50,6 +52,7 @@ async function run() {
             mainloop(chip8)
         }
         fr.readAsArrayBuffer(file)
+        
     }, false)
 }
 
